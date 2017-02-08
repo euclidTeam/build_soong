@@ -164,8 +164,11 @@ var BannerVars = []string{
 	"HOST_OS",
 	"BUILD_ID",
 	"OUT_DIR",
+	"WITH_SU",
+	"WITH_GMS",
 	"SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE",
 	"PRODUCT_SOONG_NAMESPACES",
+	
 }
 
 func Banner(make_vars map[string]string) string {
