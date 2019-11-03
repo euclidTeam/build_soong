@@ -104,7 +104,6 @@ var Configuration = map[string]PathConfig{
 	"pstree":      Allowed,
 	"rsync":       Allowed,
 	"sh":          Allowed,
-	"perl":        Log,
 	"stubby":      Allowed,
 	"tr":          Allowed,
 	"unzip":       Allowed,
@@ -120,6 +119,7 @@ var Configuration = map[string]PathConfig{
 	"nproc":       Allowed,
 	"ld.lld":      Allowed,
 	"llvm-ar":     Allowed,
+	"perl":        Allowed,
 	"arm-linux-androidkernel-as": Allowed,
 	"arm-linux-androidkernel-ld": Allowed,
 	// Host toolchain is removed. In-tree toolchain should be used instead.
