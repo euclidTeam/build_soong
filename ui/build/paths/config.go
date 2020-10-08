@@ -111,6 +111,9 @@ var Configuration = map[string]PathConfig{
 	"zip":         Allowed,
         "repo":        Allowed,
         "cpio":        Allowed,
+	"python3":     Allowed,
+	"python3.6":   Allowed,
+	"python3.8":   Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
@@ -128,7 +131,6 @@ var Configuration = map[string]PathConfig{
 	"python":     Forbidden,
 	"python2":    Forbidden,
 	"python2.7":  Forbidden,
-	"python3":    Forbidden,
 
 	// These are toybox tools that only work on Linux.
 	"pgrep": LinuxOnlyPrebuilt,
