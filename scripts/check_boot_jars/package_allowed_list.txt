@@ -315,6 +315,14 @@ vendor.euclid.*
 com\.qualcomm\.wfd
 com\.qualcomm\.wfd\..*
 
+# Lineage adds
+lineageos\.platform
+org\.lineageos\.platform\.internal
+vendor\.lineage\..*
+vendor\.lineage\.health.*
+vendor\.lineage\.livedisplay.*
+vendor\.lineage\.touch.*
+
 ###################################################
 
 # CodeAurora IMS functionality needed by frameworks/opt/telephony
@@ -335,3 +343,5 @@ com.qualcomm.wfd.service
 org.codeaurora.ims
 org.codeaurora.internal
 qcom.fmradio
+
+###################################################
