@@ -300,3 +300,5 @@ vendor\.lineage\.touch.*
 com\.oplus\..*
 com\.oplus\.os
 com\.oplus\.os\..*
+
+org\.ifaa\.aidl.*
