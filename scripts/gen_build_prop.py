@@ -131,6 +131,9 @@ def parse_args():
 
   override_config(config)
 
+  if config["BuildNumber"].startswith("eng."):
+    config["BuildNumber"] = config["DateUtc"]
+
   append_additional_system_props(args)
   append_additional_vendor_props(args)
   append_additional_product_props(args)
