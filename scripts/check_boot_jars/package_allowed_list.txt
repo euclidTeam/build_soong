@@ -297,3 +297,7 @@ org\.ifaa\.android\.manager.*
 
 # Lineage HALs
 vendor\.lineage\..*
+
+# euclidOS adds
+com.euclid.*
+vendor.euclid.*
